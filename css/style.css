@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 6;
+    font-family: 'Courier New', Geneva, sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;    
+}
+
+.header {
+    border-bottom: 2px #32b9cd solid;
+
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #d69b43;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+.navbar {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500x;
+}
+
+.banner {
+    height: fit-content;
+    padding: 40px 0;
+    color: white;
+    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+}
+
+.banner .container {
+    height: 400px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner p {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    height: fit-content;
+}
+
+.banner .container span {
+    font-weight: 800;
+}
